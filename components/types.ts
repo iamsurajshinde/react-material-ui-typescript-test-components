@@ -13,6 +13,7 @@ export interface HilabsAdvanceFilterProps {
     cancelButtonVariant?: OverridableStringUnion<'text' | 'outlined' | 'contained', ButtonPropsVariantOverrides>,
     saveFilterButtonVariant?: OverridableStringUnion<'text' | 'outlined' | 'contained', ButtonPropsVariantOverrides>,
     applyFilterButtonVariant?: OverridableStringUnion<'text' | 'outlined' | 'contained', ButtonPropsVariantOverrides>,
+    conditionOptions?: Array<string>,
     buttonPrimaryColor?: string,
     conditions: Array<any>,
     columnOptions: Array<HilabsAdvanceFilterColumnOptionsProps>,
